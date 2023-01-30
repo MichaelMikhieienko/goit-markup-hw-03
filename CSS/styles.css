@@ -18,8 +18,7 @@
 	width: 1158px;
 	padding: 0 15px;
 	margin: 0 auto;
-	outline: 2px solid red;
-	outline-offset: -2px;
+	
 	}
 .header-conteiner{
 	display: flex;
@@ -48,6 +47,7 @@ color: var(--color-navy-blue);
 
 .header {
 	background-color: #ffffff;
+	border-bottom: 1px solid #E7E9FC;
 		}
 .header-logo {
 font-family: 'Raleway';
@@ -155,10 +155,13 @@ color: var(--color-iris);
 border: 1px solid #E7E9FC;
 border-radius: 4px;
 cursor: pointer;
-margin-right: 24px;
+
 padding: 12px 24px;
 }
-.main-button :last-child{
+.button-port{
+	margin-right: 24px;
+}
+.button-port:last-child{
 	margin-right: 0;
 }
 .main-button:hover,
@@ -173,6 +176,9 @@ padding: 12px 24px;
 line-height: calc(24 / 20);
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
+margin: 0;
+padding-top: 32px;
+padding-bottom: 8px;
 }
 
 .text{
@@ -181,6 +187,7 @@ font-size: 16px;
 line-height: calc(24/16);
 letter-spacing: 0.02em;
 color: var(--color-slate);
+margin: 0;
 }
 
 .button-list{
@@ -200,19 +207,20 @@ align-items: center;
   flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
-	column-gap: 24px;
-    row-gap: 48px;
-}
+	gap: 24px;
+	padding-bottom: 120px;
+	}
+
 .concepts-sec{
 	border: 1px solid #E7E9FC;
+	width: 360px;
 	
-	
+	margin: 0;
 }
 
 .footer{
 	background-color: var(--color-navy-blue);
 	padding: 100px 0px;
-	
 }
 .footer-logo {
 	font-family: 'Raleway';
@@ -254,7 +262,8 @@ line-height: calc(60 / 56);
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--color-white);
-margin: 0;
+margin: 0 auto;
+width: 494px;
 padding-bottom: 48px;
 
 
