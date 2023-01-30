@@ -187,6 +187,7 @@ color: var(--color-slate);
 	line-height: calc(24 / 18);
 	letter-spacing: 0.03em;
 	color: var(--color-iris);
+	margin-bottom: 16px;
 	}
 	.footer-logo-s{
 		color: var(--color-cloud);
@@ -197,9 +198,10 @@ font-size: 16px;
 line-height: calc(24 / 16);
 letter-spacing: 0.02em;
 	color: var(--color-cornflower) ;
-	margin-top: 16px;
+	padding-top: 16px;
 	padding-bottom:  100px;
 	max-width: 264px;
+	margin: 0;
 }
 
 
@@ -260,6 +262,8 @@ background-color: #404BBF;
 	background-color: #ffffff;
 	text-align: center;
 	margin-right: 24px;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
 	
 }
 .ourteam-list:last-child{
@@ -283,7 +287,8 @@ margin-top: 0px;
 line-height: calc(24 / 16);
 letter-spacing: 0.02em;
 color: var(--color-slate);
-margin-top: 0px;
+margin: 0px;
+padding-bottom: 32px;
 }
 .heading{
 font-style: normal;
