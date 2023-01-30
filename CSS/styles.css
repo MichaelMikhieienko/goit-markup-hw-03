@@ -68,6 +68,7 @@ padding-bottom: 24px;
 
 .header-list {
 	display: flex;
+	margin-left: 76px ;
 font-weight: 500;
 font-size: 16px;
 line-height: calc(24 / 16);
@@ -91,6 +92,7 @@ color: var(--color-iris);
 
 .header-contacts-list{
 	display: flex;
+	margin-left: auto;
 }
 .header-mail{
 color: var(--color-slate);
