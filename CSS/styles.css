@@ -8,7 +8,9 @@
 	--color-cornflower: #e7e9fc;
 	--color-cloud: #f4f4fd;
 	--color-navy-blue-modal: #2e2f42;
-	--color-grey: #2e2f42
+	--color-grey: #2e2f42;
+	--color-white: #ffffff
+
 }
 
 
@@ -22,6 +24,7 @@
 .header-conteiner{
 	display: flex;
 	align-items: center;
+	
 }
 
 body{
@@ -213,9 +216,11 @@ font-size: 56px;
 line-height: calc(60 / 56);
 text-align: center;
 letter-spacing: 0.02em;
-	color: #ffffff;
-	margin-top: 0px;
-	margin-bottom: 48px;
+color: var(--color-white);
+margin: 0;
+padding-bottom: 48px;
+
+
 }
 .hero-button{
 font-family: 'Roboto';
@@ -241,7 +246,7 @@ background-color: #404BBF;
 .image-list{
 	display: flex;
 	padding: 0px;
-	margin-bottom: 120px;
+	padding-bottom: 120px;
 	margin-top: 0px;
 }
 .image{
@@ -289,8 +294,9 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--color-navy-blue);
-margin-bottom: 72px;
-margin-top: 0px;
+padding-bottom: 72px;
+padding-top: 120px;
+margin: 0;
 }
 .heading-list{
 	display: flex;
