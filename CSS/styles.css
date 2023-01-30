@@ -170,6 +170,7 @@ color: var(--color-slate);
 
 .footer{
 	background-color: var(--color-navy-blue);
+	padding: 100px 0px;
 	
 }
 .footer-logo {
@@ -192,6 +193,7 @@ letter-spacing: 0.02em;
 	color: var(--color-cornflower) ;
 	margin-top: 16px;
 	padding-bottom:  100px;
+	max-width: 264px;
 }
 
 
