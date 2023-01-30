@@ -125,10 +125,14 @@ padding-bottom: 24px;
     color: var(--color-iris);
 }
 
+.features{
+	padding-top: 120px;
+}
 .features-list{
 	display: flex;
-	margin-bottom: 120px;
+	padding-bottom: 120px;
 	padding: 0px;
+	margin: 0;
 	
 }
 .features-item{
@@ -209,11 +213,11 @@ letter-spacing: 0.02em;
 	background-color: var(--color-navy-blue);
 	text-align: center;
 	padding: 188px 0px;
+	padding-bottom: 120px;
 	
 	
 }
 .h1-text{
-	font-weight: 700;
 font-size: 56px;
 line-height: calc(60 / 56);
 text-align: center;
@@ -221,6 +225,7 @@ letter-spacing: 0.02em;
 color: var(--color-white);
 margin: 0;
 padding-bottom: 48px;
+
 
 
 }
@@ -249,7 +254,7 @@ background-color: #404BBF;
 	display: flex;
 	padding: 0px;
 	padding-bottom: 120px;
-	margin-top: 0px;
+	margin: 0px;
 }
 .image{
 	margin-right: 24px;
