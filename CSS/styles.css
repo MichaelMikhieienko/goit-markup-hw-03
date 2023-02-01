@@ -14,15 +14,13 @@
 }
 
 
-.conteiner{
+.container{
 	width: 1158px;
 	padding: 0 15px;
 	margin: 0 auto;
-	outline:2px solid red;
-	outline-offset: -2px;
 	
 	}
-.header-conteiner{
+.header-container{
 	display: flex;
 	align-items: center;
 	height: 72px;
@@ -149,6 +147,7 @@ color: var(--color-slate);
 .features-item:last-child{
 	margin-right: 0px;
 }
+
 .main-button{
 font-family: 'Roboto';
 font-style: normal;
@@ -184,8 +183,7 @@ line-height: calc(24 / 20);
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 margin: 0;
-padding-top: 32px;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .text{
@@ -197,12 +195,16 @@ color: var(--color-slate);
 margin: 0;
 }
 
+.button-link{
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
 .button-list{
 	display: flex;
 	text-align: center;
-	padding-top: 96px;
-	padding-bottom: 72px;
-	margin: 0;
+	padding: 0;
+	margin-top: 0px;
+	margin-bottom: 96px;
 	
 flex-direction: row;
 justify-content: center;
@@ -215,16 +217,23 @@ align-items: center;
 	margin: 0;
 	padding: 0;
 	gap: 24px;
-	padding-bottom: 120px;
-	}
-
-.concepts-sec{
-	border: 1px solid #E7E9FC;
-	width: 360px;
 	
-	margin: 0;
+	}
+.concepts-img{
+	display: block;
+	max-width: 100%; 
+	height: auto
 }
+.concepts-sec{
+	width: 360px;
+	margin: 0;
 
+}
+.conceprs-text{
+	padding: 32px 0 32px 16px;
+	border-left: 1px solid #E7E9FC;
+	border-right: 1px solid #E7E9FC;
+}
 .footer{
 	background-color: var(--color-navy-blue);
 	padding-top: 100px;
@@ -236,6 +245,7 @@ align-items: center;
 	font-weight: 800;
 	font-size: 18px;
 	line-height: calc(24 / 18);
+	text-transform: uppercase;
 	letter-spacing: 0.03em;
 	color: var(--color-iris);
 		
@@ -251,6 +261,7 @@ letter-spacing: 0.02em;
 	color: var(--color-cornflower) ;
 	margin-top: 16px;
 	max-width: 264px;
+	margin-bottom: 0;
 	
 }
 
